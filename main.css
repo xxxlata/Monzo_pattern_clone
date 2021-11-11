@@ -1,0 +1,37 @@
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #4da8db;
+}
+
+.top:hover{
+    background-color: #59b7ee;
+    cursor: pointer;
+}
+
+.line_bar span{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.line_bar a{
+    color: white;
+    font-size: 1.1rem;  
+    text-decoration:underline white;
+}
+
+.main_page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.one{
+    background-color: #14233c;
+    width: 100%;
+    height: 1000vh;
+}
