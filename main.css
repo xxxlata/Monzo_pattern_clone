@@ -77,7 +77,7 @@
     height: 85vh;
     padding: 4rem 5rem;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
     background-color: #f1fce5;   
 }
@@ -93,9 +93,36 @@
 
 footer{
     background-color: #14233c;
-    height: 75vh;
+    height: 80vh;
     padding: 4rem 5rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+}
+
+.footer_about{
+    padding: 15% 25%;
+    border: 1px solid snow;
+}
+.footer_links{
+    padding: 10% 20%;
+    height: 1.5rem;
+    width: 5rem;
+    border: 1px solid blanchedalmond;
+}
+
+@media screen and (max-width:1420px) {
+    .footer_links{
+        padding: 5% 10%;
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width:846px) {
+    .footer_about {
+        padding: 80%;
+    }
+
+    .footer_links{
+        padding: 10%;
+    }
 }
