@@ -24,7 +24,6 @@
     max-width: calc(414px + 32px);
     width: 100%;
     width: calc(100% + 32px);
-    display: inherit;
     box-sizing: border-box;
     background-color: white;
     margin-right: -32px;
@@ -36,4 +35,14 @@
     z-index: 100;   
 }
 
+.mobile_logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1.3rem; 
+}
 
+.mobile_logo i {
+    font-size: 1.4rem;
+}
