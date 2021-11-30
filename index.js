@@ -1,9 +1,8 @@
-const clickHandler = document.querySelector(".menu_last i");
-const clickMenu = document.querySelector(".manu_last a");
-
+const clickHandler = document.querySelector(".menu_last");
+const clickMenu = document.querySelector(".mobile_menu");
 
 function open(){
-    alert("helloo")
+    clickMenu.style.display = "block";
 }
   
 clickHandler.addEventListener("click",open);

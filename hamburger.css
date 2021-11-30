@@ -1,0 +1,39 @@
+.mobile_menu{       
+    display: none;
+}
+
+.blank_menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    opacity: 0.75;
+    z-index: 99;
+}
+
+.mobile_menu_list{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 414px;
+    max-width: calc(414px + 32px);
+    width: 100%;
+    width: calc(100% + 32px);
+    display: inherit;
+    box-sizing: border-box;
+    background-color: white;
+    margin-right: -32px;
+    padding-top: 1rem;
+    padding-right: 32px;
+    padding-bottom: 48px;
+    padding-left: 0;
+    overflow-y: auto;
+    z-index: 100;   
+}
+
+
