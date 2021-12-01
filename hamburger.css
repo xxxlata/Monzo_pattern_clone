@@ -46,3 +46,83 @@
 .mobile_logo i {
     font-size: 1.4rem;
 }
+
+.mobile_menu_ul_pb{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.mobile_menu_ul_pb a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+}
+
+.mobile_menu_ul_pb li{
+    padding: 0.5rem;
+}
+
+.mobile_menu_ul_pb li:hover {
+    background-color: rgba(221, 220, 220, 0.747);
+}
+
+.mobile_menu_ul_pb a:hover{
+    color: #4da8db; 
+}
+
+.mobile_span_first{
+    color: gray;
+    font-size: 1rem;
+    margin: 2rem 2.6rem;
+    padding-top: 2rem;
+    display: block;
+    border-top: 1px solid ghostwhite;
+}
+
+.mobile_span{
+    color: gray;
+    font-size: 1rem;
+    margin: 2rem 2.6rem;
+    padding-top: 2rem;
+    display: block;
+}
+
+.mobile_menu_ul{
+    margin: 2rem;
+
+}
+
+.mobile_menu_ul a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.mobile_menu_ul li {
+    border-bottom:1px solid rgba(192, 192, 192, 0.486);  
+    padding: 1rem;
+}
+
+.help a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.help{
+    margin: 2rem 3rem;
+}
+
+.mobile_btn{
+    width: 22rem;   
+    margin-left: 2rem;
+}
+
+.mobile_menu_ul li:hover {
+    background-color: rgba(221, 220, 220, 0.747);
+}
+
+.mobile_menu_ul a:hover{
+    color: #4da8db;
+}
